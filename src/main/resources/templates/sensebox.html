@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Sensebox Temperature</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Temperature Values:</h1>
+<p th:text="'Aktuelle Temperatur für den Standort TU Dortmund: ' + ${temperature}" />
+<p th:text="'Aktuelle Luftfeuchtigkeit für den Standort TU Dortmund: ' + ${humidity}" />
+<p th:text="'Aktuelle Lichtstärke für den Standort TU Dortmund: ' + ${light}" />
+<p th:text="'Aktuelle Emission (PM25) für den Standort TU Dortmund: ' + ${pm25}" />
+<p th:text="'Aktuelle Emission (PM10) für den Standort TU Dortmund: ' + ${pm10}" />
+
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Forecast</title>
+</head>
+<body>
+<div th:switch="${timeStamps}">
+    <h2 th:case="null">No weather data available!</h2>
+    <div th:case="*">
+        <h2>Weather Forecast for Dortmund</h2>
+
+        <!--
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Index</th>
+                        <th>Time</th>
+                        <th>Temperature</th>
+                        <th>Humidity</th>
+                        <th>Wind</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    <tr th:each="time : ${timeStamps}">
+                        <td th:text="${timeStat.index}"></td>
+                        <td th:text="${time[timeStat.index]}"></td>
+                        <td th:text="${temperature[timeStat.index]}"></td>
+                        <td th:text="${humidity[timeStat.index]}"></td>
+                        <td th:text="${wind[timeStat.index]}"></td>
+                    </tr>
+                    </tbody>
+                </table>
+                -->
+            </div>
+        </div>
+        </body>
+        </html>

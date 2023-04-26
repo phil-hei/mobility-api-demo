@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Vehicle Breakdowns</title>
+</head>
+<body>
+<div th:switch="${vehicleBreakdowns}">
+    <h2 th:case="null">No test data available!</h2>
+    <div th:case="*">
+        <h2>Vehicle Test Data</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Brand</th>
+                <th>Timestamp</th>
+                <th>Location</th>
+                <th>Error Code</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="vehicle : ${vehicleBreakdowns}">
+                <td th:text="${vehicle.getModel()}"></td>
+                <td th:text="${vehicle.getTimestamp()}"></td>
+                <td th:text="${vehicle.getLocation().getLatitude() + ' ' + vehicle.getLocation().getLongitude()}"></td>
+                <td th:text="${vehicle.getErrorCode()}"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>

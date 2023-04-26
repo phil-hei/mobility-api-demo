@@ -1,0 +1,92 @@
+[
+  {
+    "model": "BMW X5",
+    "timestamp": "2023-04-25T10:30:00Z",
+    "location": {
+      "latitude": 51.5074,
+      "longitude": 0.1278
+    },
+    "hardware_fault_code": "P0128"
+  },
+  {
+    "model": "Mercedes-Benz C-Class",
+    "timestamp": "2023-04-25T10:31:00Z",
+    "location": {
+      "latitude": 52.5200,
+      "longitude": 13.4050
+    },
+    "hardware_fault_code": "P0456"
+  },
+  {
+    "model": "Audi Q7",
+    "timestamp": "2023-04-25T10:32:00Z",
+    "location": {
+      "latitude": 48.1351,
+      "longitude": 11.5820
+    },
+    "hardware_fault_code": "P0300"
+  },
+  {
+    "model": "Volkswagen Golf",
+    "timestamp": "2023-04-25T10:33:00Z",
+    "location": {
+      "latitude": 50.1109,
+      "longitude": 8.6821
+    },
+    "hardware_fault_code": "P0135"
+  },
+  {
+    "model": "Ford Focus",
+    "timestamp": "2023-04-25T10:34:00Z",
+    "location": {
+      "latitude": 51.4545,
+      "longitude": -2.5879
+    },
+    "hardware_fault_code": "P0420"
+  },
+  {
+    "model": "Opel Astra",
+    "timestamp": "2023-04-25T10:35:00Z",
+    "location": {
+      "latitude": 53.5511,
+      "longitude": 9.9937
+    },
+    "hardware_fault_code": "P0442"
+  },
+  {
+    "model": "BMW 3 Series",
+    "timestamp": "2023-04-25T10:36:00Z",
+    "location": {
+      "latitude": 48.7758,
+      "longitude": 9.1829
+    },
+    "hardware_fault_code": "P0505"
+  },
+  {
+    "model": "Mercedes-Benz S-Class",
+    "timestamp": "2023-04-25T10:37:00Z",
+    "location": {
+      "latitude": 51.5072,
+      "longitude": -0.1276
+    },
+    "hardware_fault_code": "P0601"
+  },
+  {
+    "model": "Audi A6",
+    "timestamp": "2023-04-25T10:38:00Z",
+    "location": {
+      "latitude": 48.2082,
+      "longitude": 16.3738
+    },
+    "hardware_fault_code": "P0101"
+  },
+  {
+    "model": "Volkswagen Passat",
+    "timestamp": "2023-04-25T10:39:00Z",
+    "location": {
+      "latitude": 52.5200,
+      "longitude": 13.4050
+    },
+    "hardware_fault_code": "P0171"
+  }
+]

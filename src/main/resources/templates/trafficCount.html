@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Traffic Overview</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Traffic Count for Huybergsebaan ESSEN, BELGIË / BELGIQUE:</h1>
+<p th:text="'Cars: ' + ${cars}" />
+<p th:text="'Pedestrian: ' + ${pedestrians}" />
+<p th:text="'Bikes: ' + ${bikes}" />
+<p th:text="'Trucks ' + ${trucks}" />
+
+</body>
+</html>
